@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="main">
+        <div id="center">
+            <div id="content">
+                <div class="ali" id="adder"> ADD Item
+                    <button id="but" class="ali" onclick="popupitem()">+
+                    </button>
+                     
+                </div>
+                    <div id="scr" class="ali2">
+                        <div id="edd" class="items">
+
+                            <h3 id="taskhead">Task</h3>
+                            <p id="datehead">2021-08-03</p>
+                            <p id="deschead">akjehfkgehgrhsdkrjrgkljsjghjlsgh</p>
+
+                            <button class="edi" id="edb" onclick="edititems(this)" >
+                                edit
+                            </button>
+                            <button class="del" id="delt" onclick="deleteitems(this)">
+                                dele
+                            </button>
+      
+                        </div>
+                                     
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="mainpopup" class="popup">
+
+        <h2>Enter Task details</h2>
+
+
+    <div class="aligner" id="alg">
+        <label for="taskname">Task</label><br>
+        <input type="text" id="taskname"><br>
+        <!-- <span id="errorp" class="error1"></span> -->
+    </div>
+
+    <div class="aligner">
+        <label for="date">date</label><br>
+        <input type="date" id="dateofc"><br>
+    </div>    
+
+    <div class="aligner">
+        <label for="description">Description</label><br>
+        <textarea name="description" id="descriptionn" cols="30" rows="10"></textarea><br>
+    </div>
+    <div class="aligner1">
+        <button id="btnc" onclick="closeTask()">close</button>
+        <button type="submit" id="btna" onclick="addTask()">add</button>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

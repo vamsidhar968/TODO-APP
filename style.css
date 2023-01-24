@@ -1,0 +1,130 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+#center{
+    position : absolute;
+    top:50%;
+    left:50%;
+    background-color:rgb(48, 179, 235);
+    height: 400px;
+    width: 300px;
+    transform: translate(-50%, -50%);
+
+}
+
+#content{
+    margin: 5px;
+    position : absolute;
+    background-color:rgb(155, 224, 235);
+    height: 390px;
+    width: 290px;
+
+}
+
+#adder{
+    background-color:rgb(198, 235, 244);
+    margin: 5px;
+    display:flex;
+    align-items : center;
+    justify-content : center;
+    height: 30px;
+}
+ #but{
+    
+    position:absolute;
+    left: 240px;
+ }
+
+ .items{
+    position:relative;
+    background-color:rgb(159, 220, 185);
+    height: 110px;
+    margin: 5px;
+    
+ }
+
+.ali2{
+    height: 330px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+#scr::-webkit-scrollbar{
+    width:0.3vw;
+}
+
+
+#scr::-webkit-scrollbar-thumb{
+    background-color: beige;
+}
+
+#scr::-webkit-scrollbar-track{
+    background-color: rgb(218, 150, 153); 
+}
+
+.del{
+
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+.edi{
+
+    position: absolute;
+    top: 2px;
+    right: 35px;
+}
+
+
+.popup{
+    position: absolute;
+    height: 370px;
+    width: 300px;
+    background-color:rgb(230, 239, 238);
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+.popup.main1{
+    transform: translate(-50%, -50%) scale(1);
+}
+
+#taskhead, #datehead, #deschead {
+    padding: 5px;
+}
+
+h2{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.aligner {
+    margin: 10px 0px 0px 10px;
+    
+}
+
+.aligner1 {
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#btnc{
+    position: relative;
+    margin-right: 5px;
+}
+
+.error2{
+    visibility: hidden;
+}
+
+.error1{
+    color:red;
+    font-size: 12px;
+}
+
+
